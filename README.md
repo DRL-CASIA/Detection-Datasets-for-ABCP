@@ -2,7 +2,7 @@
 
 ## The UCSD dataset
 
-<p align="center"><img src="misc/UCSDsparse.jpg" width="20%"/>  <img src="misc/UCSDmedium.jpg" width="20%"/>  <img src="misc/UCSDdense.jpg" width="20%"/>
+<p align="center"><img src="misc/UCSDsparse.jpg" width="23%"/>  <img src="misc/UCSDmedium.jpg" width="23%"/>  <img src="misc/UCSDdense.jpg" width="23%"/>
   
 The UCSD dataset is a small dataset captured from the freeway surveillance videos collected by UCSD. This dataset involves three different traffic densities each making up about one-third: the sparse traffic, the medium-density traffic, and the dense traffic. We define three classes in this dataset: truck, car, and bus. The resolutions of the images are all 320×240. The training and testing sets contain 683 and 76 images respectively.
 
@@ -15,7 +15,7 @@ The mobile robot detection dataset is collected by the robot-mounted cameras to 
   
 ## The sim2real dataset
   
-<p align="center"><img src="misc/real-world.jpg" width="25%"/>  <img src="misc/simulation.jpg" width="25%"/>
+<p align="center"><img src="misc/real-world.jpg" width="23%"/>  <img src="misc/simulation.jpg" width="23%"/>
 
 The sim2real detection dataset is divided into two sub-datasets: the real-world dataset and the simulation dataset. We search and train the model on the simulation dataset and test it on the real-world dataset. Firstly, we collect the real-world dataset by the surveillance-view ordinary color cameras in the field. The field and the mobile robots are the same as those in the mobile robot detection dataset. Secondly, we leverage Gazebo to simulate the robots and the field from the surveillance view. Then we capture the images of the simulation environment to collect the simulation dataset. The resolutions of images in the sim2real dataset are all 640×480. There is only one object class in these two datasets: robot. The training and testing sets of the simulation dataset contain 5,760 and 1,440 respectively, and the testing set of the real-world dataset contains 3,019 images.
 
