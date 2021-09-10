@@ -2,9 +2,7 @@
 
 ## The UCSD dataset
 
-<p align="center"><img src="misc/UCSDsparse.jpg" width="20%"/>
-<p align="center"><img src="misc/UCSDmedium.jpg" width="20%"/>
-<p align="center"><img src="misc/UCSDdense.jpg" width="20%"/>
+<p align="center"><img src="misc/UCSDsparse.jpg" width="20%"/><p align="center"><img src="misc/UCSDmedium.jpg" width="20%"/><p align="center"><img src="misc/UCSDdense.jpg" width="20%"/>
   
 The UCSD dataset is a small dataset captured from the freeway surveillance videos collected by UCSD. This dataset involves three different traffic densities each making up about one-third: the sparse traffic, the medium-density traffic, and the dense traffic. We define three classes in this dataset: truck, car, and bus. The resolutions of the images are all 320×240. The training and testing sets contain 683 and 76 images respectively.
 
