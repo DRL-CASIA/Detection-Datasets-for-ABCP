@@ -1,10 +1,10 @@
-# Datasets for ABCP
+# Detection Datasets for ABCP
 
 ## The UCSD dataset
 
 <p align="center"><img src="misc/UCSDsparse.jpg" width="22%"/>  <img src="misc/UCSDmedium.jpg" width="22%"/>  <img src="misc/UCSDdense.jpg" width="22%"/>
   
-The UCSD dataset is a small dataset captured from the freeway surveillance videos collected by UCSD. This dataset involves three different traffic densities each making up about one-third: the sparse traffic, the medium-density traffic, and the dense traffic. We define three classes in this dataset: truck, car, and bus. The resolutions of the images are all 320×240. The training and testing sets contain 683 and 76 images respectively.
+The UCSD dataset is a small dataset captured from the freeway surveillance videos collected by [UCSD](http://www.svcl.ucsd.edu/projects/traffic/). This dataset involves three different traffic densities each making up about one-third: the sparse traffic, the medium-density traffic, and the dense traffic. We define three classes in this dataset: truck, car, and bus. The vehicles in the images are labeled for the detection task. The resolutions of the images are all 320×240. The training and testing sets contain 683 and 76 images respectively.
 
 ## The mobile robot detection dataset
 
