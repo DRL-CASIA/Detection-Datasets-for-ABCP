@@ -1,5 +1,7 @@
 # Detection Datasets for ABCP
 
+These three datasets are collected for the evaluation of ABCP.
+
 ## The UCSD dataset
 
 <p align="center"><img src="misc/UCSDsparse.jpg" width="22%"/>  <img src="misc/UCSDmedium.jpg" width="22%"/>  <img src="misc/UCSDdense.jpg" width="22%"/>
